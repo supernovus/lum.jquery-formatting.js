@@ -1,0 +1,27 @@
+{
+  "name": "@lumjs/jquery-formatting",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./json": "./lib/json.js",
+    "./xml": "./lib/xml.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.jquery-formatting.js.git"
+  },
+  "dependencies": {
+    "@lumjs/core": "^1.11.0",
+    "@lumjs/jquery-plugins": "^1.1.0",
+    "@lumjs/formatting": "^1.0.0"
+  },
+  "scripts":
+  {
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
